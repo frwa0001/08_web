@@ -231,3 +231,32 @@ grid-template-columns: 1fr 1fr;
   background-color: #E8534E;
   color: #2C2C2C;
 }
+
+.produkt2 h5{
+    position: absolute;
+    font-family: Inter;
+    color: #E8534E;
+    font-size: 3rem;
+    font-weight: 400;
+    background-color: #2C2C2C80;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produkt4 h5{
+    position: absolute;
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #E8534E80;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
