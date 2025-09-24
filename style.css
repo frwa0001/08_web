@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: #DFDCD4;
+    margin: 20px;
+}
+
+header{
+margin: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.logo{
+    width: 80px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: Audiowide;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3d2112;
+}
+
+.menu a:hover {
+  color: #E8534E;
+}
+
+.menu{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.velkommen h1{
+    font-family: Audiowide;
+    color: #2C2C2C;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.sortbox h2{
+    font-family: Audiowide;
+    color: #F9F4F4;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.kategorier a{
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #F9F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.kategorier a:hover {
+  background-color: #E8534E;
+  color: #F9F4F4;
+}
+
+.kategorier{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    gap: 20px;
+}
+
+.sortbox{
+    margin-top: 40px;
+    background-color: #2C2C2C;
+    padding: 20px;
+}
+
+.produkter{
+    display: grid;
+    grid-template-columns: repeat(4, 345px);
+    list-style: none;
+    background-color: #F9F4F4;
+    padding: 20px;
+}
+
+.produkter img{
+    width: 300px;
+}
+
+.produkter h3{
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.produkter h4{
+    font-family: Inter;
+    color: #2C2C2C80;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.produkter p{
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.sale h2{
+    font-family: Audiowide;
+    color: #2C2C2C;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.produkt img{
+    width: 420px;
+}
+
+.produkt h2{
+    font-family: Audiowide;
+    color: #2C2C2C;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.produkt h3{
+    font-family: Inter;
+    color: #2C2C2C80;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.produkt p{
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.produkt{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+}
+
+.størrelser a{
+    font-family: Inter;
+    color: #F9F4F4;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #2C2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.størrelser{
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    list-style: none;
+    margin-top: 80px;
+}
+
+.størrelser a:hover {
+  background-color: #F9F4F4;
+  color: #2C2C2C;
+}
+
+.pib a{
+    font-family: Inter;
+    color: #F9F4F4;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #2C2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.pib img{
+    width: 40px;
+}
+
+.pib{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 50px);
+    list-style: none;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.pib a:hover {
+  background-color: #E8534E;
+  color: #2C2C2C;
+}
