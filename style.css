@@ -100,7 +100,19 @@ grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
 
-.produkter{
+.product_container {
+    display: grid;
+    grid-template-columns: repeat(4, 345px);
+    list-style: none;
+    background-color: #F9F4F4;
+    padding: 20px;
+}
+
+.product_container img {
+    width: 300px;
+}
+
+/* .produkter{
     display: grid;
     grid-template-columns: repeat(4, 345px);
     list-style: none;
@@ -110,7 +122,7 @@ grid-template-columns: 1fr 1fr;
 
 .produkter img{
     width: 300px;
-}
+} */
 
 .produkter h3{
     font-family: Inter;
@@ -134,6 +146,28 @@ grid-template-columns: 1fr 1fr;
     margin-top: 6px;
 }
 
+.product_container h3 {
+  font-family: Inter;
+  color: #2c2c2c;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.product_container h4 {
+  font-family: Inter;
+  color: #2c2c2c80;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.product_container p {
+    font-family: Inter;
+  color: #2c2c2c;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
 .sale h2{
     font-family: Audiowide;
     color: #2C2C2C;
@@ -142,7 +176,33 @@ grid-template-columns: 1fr 1fr;
     margin-top: 20px;
 }
 
-.produkt img{
+#productcontainer img {
+  width: 420px;
+}
+
+#productcontainer h2 {
+    font-family: Audiowide;
+    color: #2C2C2C;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#productcontainer h3 {
+    font-family: Inter;
+    color: #2C2C2C80;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#productcontainer p {
+    font-family: Inter;
+    color: #2C2C2C;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* .produkt img{
     width: 420px;
 }
 
@@ -166,7 +226,7 @@ grid-template-columns: 1fr 1fr;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 20px;
-}
+} */
 
 .produkt{
     display: grid;
@@ -232,7 +292,31 @@ grid-template-columns: 1fr 1fr;
   color: #2C2C2C;
 }
 
-.produkt2 h5{
+.soldout .imageContainer p {
+    font-family: Audiowide;
+    color: #E8534E;
+    border: 4px solid #E8534E;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer p {
+  display: none;
+}
+
+.imageContainer {
+  display: grid;
+  > * {
+    place-self: center center;
+    grid-area: 1 / 1;
+  }
+}
+
+/* .produkt2 h5{
     position: absolute;
     font-family: Inter;
     color: #E8534E;
@@ -259,4 +343,11 @@ grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     margin-top: 350px;
+} */
+
+.produkt1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
 }
