@@ -29,34 +29,14 @@ grid-template-columns: 1fr 1fr;
 }
 
 .logo{
-    width: 80px;
-}
-
-.menu a {
-  text-decoration: none;
-  font-family: Audiowide;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #3d2112;
-}
-
-.menu a:hover {
-  color: #E8534E;
-}
-
-.menu{
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin-top: 20px;
+    width: 600px;
 }
 
 .velkommen h1{
     font-family: Audiowide;
     color: #2C2C2C;
-    font-size: 5rem;
-    font-weight: 600;
+    font-size: 4rem;
+    font-weight: 400;
     margin-top: 100px;
 }
 
@@ -64,10 +44,10 @@ grid-template-columns: 1fr 1fr;
     font-family: Audiowide;
     color: #F9F4F4;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 200;
 }
 
-.kategorier a{
+.category_list_container a{
     font-family: Inter;
     color: #2C2C2C;
     font-size: 2rem;
@@ -82,12 +62,12 @@ grid-template-columns: 1fr 1fr;
     border-radius: 10px;
 }
 
-.kategorier a:hover {
+.category_list_container a:hover {
   background-color: #E8534E;
   color: #F9F4F4;
 }
 
-.kategorier{
+.category_list_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
@@ -302,6 +282,7 @@ grid-template-columns: 1fr 1fr;
     display: inline-block;
     align-items: center;
     justify-content: center;
+    background-color: #F9F4F4;
 }
 
 .imageContainer p {
@@ -314,6 +295,26 @@ grid-template-columns: 1fr 1fr;
     place-self: center center;
     grid-area: 1 / 1;
   }
+}
+
+.discounted_container {
+  display: none;
+}
+
+.discount .discounted_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount .price {
+  text-decoration: line-through;
+}
+
+.discounted_container p:nth-child(2) {
+  background-color: #E8534E;
+  color: white;
+  padding: 10px;
+  font-size: 80%;
 }
 
 /* .produkt2 h5{
@@ -351,3 +352,26 @@ grid-template-columns: 1fr 1fr;
   align-items: start;
   text-align: left;
 }
+
+.buttons button{
+    color: #2C2C2C;
+    background-color: #F9F4F4;
+    font-family: Inter;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    width: 100px;
+    height: 30px;
+}
+
+.buttons button:hover{
+    background-color: #E8534E;
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-bottom: 20px
+}
+
